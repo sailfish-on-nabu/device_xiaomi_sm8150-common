@@ -23,7 +23,7 @@
 -->
 
 <!--
- Kona Non-Secure decoder capabilities
+ msmnile Non-Secure decoder capabilities
  _________________________________________________________
  | Codec       | W       H       fps     Mbps    MB/s    |
  |_____________|_________________________________________|
@@ -37,7 +37,7 @@
  |             | (4096)  (2304)  (30)    (120)           |
  |_____________|_________________________________________|
 
- Kona Secure decoder capabilities
+ msmnile Secure decoder capabilities
  ______________________________________________________
  | Codec    | W       H       fps     Mbps    MB/s    |
  |__________|_________________________________________|
@@ -49,7 +49,7 @@
  |          | (4096)  (2304)  (30)    (40)            |
  |__________|_________________________________________|
 
- Kona Non-Secure encoder capabilities (Secure not supported)
+ msmnile Non-Secure encoder capabilities (Secure not supported)
  ______________________________________________________
  | Codec    | W       H       fps     Mbps    MB/s    |
  |__________|_________________________________________|
@@ -165,7 +165,7 @@
             <Limit name="performance-point-4096x2304" value="30" />
             <Limit name="performance-point-3840x2160" value="60" />
         </MediaCodec>
-        <!-- TODO: parameters are copied from kona omx -->
+        <!-- TODO: parameters are copied from msmnile omx -->
         <MediaCodec name="c2.qti.mpeg2.decoder" type="video/mpeg2" >
             <Limit name="size" min="128x128" max="1920x1920" />
             <Limit name="alignment" value="2x2" />
@@ -329,7 +329,7 @@
             <Limit name="performance-point-3840x2160" value="60" />
             <Limit name="performance-point-4096x2304" value="60" />
         </MediaCodec>
-        <!-- TODO: parameters are copied from kona omx -->
+        <!-- TODO: parameters are copied from msmnile omx -->
     </Decoders>
     <Encoders>
         <!-- C2 encoders -->

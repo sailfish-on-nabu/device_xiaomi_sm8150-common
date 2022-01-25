@@ -51,9 +51,9 @@ sh_binary {
 // TODO on S:
 // https://android-review.googlesource.com/c/platform/build/soong/+/1532503
 soong_config_module_type {
-    name: "xiaomi_kona_rootdir_prebuilt_etc",
+    name: "xiaomi_msmnile_rootdir_prebuilt_etc",
     module_type: "prebuilt_etc",
-    config_namespace: "XIAOMI_KONA_ROOTDIR",
+    config_namespace: "XIAOMI_msmnile_ROOTDIR",
     variables: ["PARTITION_SCHEME"],
     properties: ["src"],
 }
@@ -63,7 +63,7 @@ soong_config_string_variable {
     values: ["a", "vab"],
 }
 
-xiaomi_kona_rootdir_prebuilt_etc {
+xiaomi_msmnile_rootdir_prebuilt_etc {
     name: "fstab.qcom",
     src: "etc/fstab.qcom",
     soong_config_variables: {

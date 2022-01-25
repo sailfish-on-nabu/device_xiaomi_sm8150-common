@@ -311,10 +311,10 @@ case "$target" in
                 ;;
         esac
         ;;
-    "kona")
+    "msmnile")
         case "$soc_hwplatform" in
             *)
-                setprop vendor.media.target_variant "_kona"
+                setprop vendor.media.target_variant "_msmnile"
                 if [ $fb_width -le 1600 ]; then
                     setprop vendor.display.lcd_density 560
                 else

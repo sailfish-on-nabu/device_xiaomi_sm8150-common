@@ -5,11 +5,11 @@
 //
 
 cc_binary {
-    name: "vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.xiaomi_kona",
+    name: "vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.xiaomi_msmnile",
     defaults: ["hidl_defaults"],
     relative_install_path: "hw",
-    init_rc: ["vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.xiaomi_kona.rc"],
-    vintf_fragments: ["vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.xiaomi_kona.xml"],
+    init_rc: ["vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.xiaomi_msmnile.rc"],
+    vintf_fragments: ["vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.xiaomi_msmnile.xml"],
     srcs: ["service.cpp", "FingerprintInscreen.cpp"],
     shared_libs: [
         "libbase",
@@ -26,7 +26,7 @@ cc_binary {
 }
 
 cc_library_static {
-    name: "libfod_extension.xiaomi_kona",
+    name: "libfod_extension.xiaomi_msmnile",
     srcs: ["FodExtension.cpp"],
     include_dirs: [
         "frameworks/native/services/surfaceflinger/CompositionEngine/include"
